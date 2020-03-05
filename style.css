@@ -1,0 +1,371 @@
+header{
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index:1;
+    width: 1260px;
+    background-color: #453A33;
+}
+.section1{
+    width: 250px;
+    height: 1800px;
+    margin-left: 20px;
+    margin-top: -9px;
+    padding: 30px;
+    z-index: 3;
+    background-color: #FFD5BD;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    font-size: 18px;
+}
+.section2{
+    margin-left: 20px; 
+    margin-top:170px;
+    z-index:1; 
+    width: 900px; 
+    padding-top: 30px;     
+}
+.photo img{
+    border-radius: 100px; 
+    width: 200px;
+    height: 200px;
+    border: 2px rgb(247, 239, 239) solid;
+    margin-bottom: 20px;
+}
+.photo1 img, .photo2 img,.photo3 img,.photo4 img,.photo5 img,.photo6 img,.phot img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding-right: 20px;
+}
+.photo7 img, .photo8 img, .photo9 img, .photo10 img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.sec1-gauche{
+    float: left;
+    font-weight:bolder;
+    font-size: 16px;
+    line-height: 35px;
+    margin-left: 15px;
+}
+.sec1-droite{
+
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.sec2-gauche{
+    float: left;
+    font-weight:normal;
+    font-size: 16px;
+    line-height: 40px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+.sec2-droite{
+    width: auto;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.sec3-gauche{
+    float: left;
+    font-weight:bolder;
+    font-size: 16px;
+    line-height: 35px;
+    margin-left: 15px;
+}
+.sec3-droite{
+    margin-left: 150px;
+    margin-top: 15px;
+    line-height: 20px;
+}
+.sec4-gauche{
+    float: left;
+    font-weight:bolder;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 20px;
+}
+.sec4-droite{
+    margin-left: 150px;
+    margin-top: 15px;
+    line-height: 27px;
+}
+.année{
+    margin-top: 15px;
+    font-weight:bolder;
+    font-size: 16px;
+}
+.année1{
+    line-height: 75px; 
+    margin-top: 15px;
+    font-weight:bolder;
+    font-size: 16px;
+}
+.année2{
+    line-height: 170px; 
+    margin-top: 15px;
+    font-weight:bolder;
+    font-size: 16px;
+}
+.année3{
+    line-height: 145px; 
+    margin-top: 15px;
+    font-weight:bolder;
+    font-size: 16px;
+}
+.année4{
+    line-height: 35px; 
+    margin-top: 15px;
+    font-weight:bolder;
+    font-size: 16px;
+}
+.année5{
+    line-height: 93px; 
+    margin-top: 15px;
+    font-weight:bolder;
+    font-size: 16px;
+}
+.titre{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+section{
+    display: flex;
+}
+h1{
+    text-align: center;
+    color: #FFD5BD;
+    padding-top: 50px;
+    
+}
+h2{
+    text-align: center;
+    color: #FFD5BD;
+    padding-top: 10px;
+    
+}
+h3{
+    font-style: oblique;
+    font-size: 20px;
+}
+.fond{
+    font-size: 20px;
+    color:black;
+}
+body{
+    border: 1px solid white;
+    height: 1850px;
+    max-width: 1250px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-right:8px;
+    box-shadow: 4px 4px 4px black;
+}
+li{
+    list-style-type: circle;
+}
+#ci{
+    line-height: 5px;
+}
+#background{
+    position: relative;
+    bottom: 1200px;
+    z-index:1;
+    border: 1px solid whites;
+}
+#bg-text{
+    color:#FFD5BD;
+    font-size:120px;
+    transform:rotate(300deg);
+    opacity: 0.4;
+    letter-spacing:5px;
+}
+.section2 .fond:last-child{
+    color:rgb(219, 156, 120);
+    font-weight: bold ;
+}
+@media all and (max-width: 1024px){
+.page{
+    width: auto;
+    }
+.section2{
+    word-wrap: break-word;
+    }
+header{
+    width:100%;
+
+    }
+
+#bg-text,#background{
+    display: none;
+}
+h2{
+    text-align:right ;
+    padding-right: 30px;
+    
+}
+.photo img{
+    border-radius: 50px; 
+    width: 100px;
+    height: 100px;
+    border: 2px rgb(247, 239, 239) solid;
+    margin-bottom: 20px;
+}
+.section1{
+    width: 125px;
+    word-wrap: break-word
+}
+.section1 .fond:last-child{
+    font-size: 15px;
+    color:black;
+}
+.section2 .fond:last-child{
+    font-size: 15px;
+}
+}
+@media all and (max-width: 900px){
+    .page{
+        width: auto;
+        }
+    .section2{
+        word-wrap: break-word;
+        }
+    header{
+        display: none;
+        }
+    body{
+       width: auto;
+        }
+    .section1{
+           flex-direction: column;
+        }
+    #bg-text,#background{
+        display: none;
+    }
+    .photo img{
+        width: 75px;
+        float: right;
+        margin-left: 15px;
+    }
+    .section2{
+        margin-top: -20px;
+        font-size: 7px;     
+    }
+    .section1{
+        font-size: 10px;
+    }
+    .infophoto{
+        position: relative;
+        top: -100px;
+    }
+    .infosocial{
+        position: relative;
+        top: -200px;
+    }
+    .ref{
+        position: relative;
+        top: -300px;
+    }
+.sec3-gauche,.sec4-gauche{
+    font-size: 7px;
+    font-weight: normal;
+}
+.sec2-gauche p:last-child{
+    font-size: 7px;
+    font-weight: normal;
+}
+#forma-gauche,#ci{
+    font-size: 7px;
+    font-weight: normal;
+}
+.sec1-droite,.sec2-droite,.sec3-droite,.sec4-droite{
+    margin-left: 100px;
+    font-weight: normal;
+} 
+.section2 .fond:last-child{
+    font-size: 7px;
+}
+/*.section2 p:last-child{
+    font-size: 15px;
+}*/
+.titre{
+    font-size: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sec1-gauche{
+    line-height: 15px;
+    
+}
+.a{
+    position: relative;
+    top: 5px;
+}
+.b{
+    position: relative;
+    top: 12px;
+}
+.c{
+    position: relative;
+    top: 18px;
+}
+.d{
+    position: relative;
+    top: 25px;
+}
+body{
+    height: 1450px;
+}
+.section1{
+    height: 1399px;
+}
+.année1{
+    position: relative;
+    top: -11px;
+}
+.année2{
+    position: relative;
+    top: -38px;
+}.année3{
+    position: relative;
+    top: -80px;
+}
+.année4{
+    position: relative;
+    top: -110px;
+}.année5{
+    position: relative;
+    top: -120px;
+}
+.sec3-droite{
+    position: relative;
+    left: -30px; 
+}
+.sec4-droite{
+    position: relative;
+    top: -10px; 
+}
+.sec3-gauche{
+    position: relative;
+    left: -50px;
+}
+#ci{
+    position: relative;
+    top: 90px; 
+}
+#o{
+    position: relative;
+    top: 50px; 
+}
+.sect{
+    position: relative;
+    left: -50px; 
+}
+}
+
+    
