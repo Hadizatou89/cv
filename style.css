@@ -209,12 +209,9 @@ h2{
     padding-right: 30px;
     
 }
-.photo img{
-    border-radius: 50px; 
-    width: 100px;
-    height: 100px;
-    border: 2px rgb(247, 239, 239) solid;
-    margin-bottom: 20px;
+.photo img{ 
+    width: 90px;
+    height: 90px;
 }
 .section1{
     width: 125px;
@@ -223,6 +220,10 @@ h2{
 .section1 .fond:last-child{
     font-size: 15px;
     color:black;
+}
+#r{
+    font-size: 15px;
+    color:black; 
 }
 .section2 .fond:last-child{
     font-size: 15px;
@@ -246,11 +247,6 @@ h2{
         }
     #bg-text,#background{
         display: none;
-    }
-    .photo img{
-        width: 75px;
-        float: right;
-        margin-left: 15px;
     }
     .section2{
         margin-top: -20px;
@@ -290,9 +286,6 @@ h2{
 .section2 .fond:last-child{
     font-size: 7px;
 }
-/*.section2 p:last-child{
-    font-size: 15px;
-}*/
 .titre{
     font-size: 7px;
     font-family: 'Times New Roman', Times, serif;
@@ -326,21 +319,21 @@ body{
 }
 .année1{
     position: relative;
-    top: -11px;
+    top: -20px;
 }
 .année2{
     position: relative;
-    top: -38px;
+    top: -51px;
 }.année3{
     position: relative;
-    top: -80px;
+    top: -95px;
 }
 .année4{
     position: relative;
-    top: -110px;
+    top: -130px;
 }.année5{
     position: relative;
-    top: -120px;
+    top: -140px;
 }
 .sec3-droite{
     position: relative;
@@ -360,7 +353,7 @@ body{
 }
 #o{
     position: relative;
-    top: 50px; 
+    top: 25px; 
 }
 .sect{
     position: relative;
